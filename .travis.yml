@@ -21,4 +21,5 @@ deploy:
   provider: heroku
   app: https://prueba-19.herokuapp.com/
   strategy: git
-  
+  api_key:
+    secure: EGGkmTb98N/T+1u6qgC8AkShumVuV2zODgjwamKNSYENHbdEjV1aMKbdIQ8AzIXrJbZo1Zvp/KXtidOo9UxDxJj3WNpvvF9oqvW4gMs+bY35rAZll1GFNsBE+jVS91L1ftWSEPx2nNB6Fpc6qJ6QhtJaSPUJULo3pTPxSlEqvRs5eX0iTRqwtQe9u4pPZraOcN7/sG7Nl9BIP/LFn+8PPtVSeJ81m2859dRhtxrGe+MLt0Am7PJEocRJj4AemNCv/qCcfcclJXiyIkUAJrjXaVQ/6tpYBmj+8x20G/bcvnBN++XNaWIEDP03vWp1ziLRyKxkqWXlp+g5KiVW9zq3StXdOcz4ptT/cNPK0d6kNEU46633gp20+3TFB/DxQPzlGQ/bEY69ewDrANBOYrMY/Z5KLNpq2chigWVJgB+qI+WHUQb6+pKVR5kALbQxhyiK3MnIXNt8AbO+1VSjLJeHi+QYWZz18QdHDJZGlw+Jp3xo3kCdPGZu6ITCoFunUcJh5KA2hzr5p5FZwZ70cw8xvJko8u0YR++DZX60QSJI5XlOy1BnwV0B3GTTeexxXanSTQTyCb8Y5bdZZNUgymNdGr6hB20hdwUpq+Qi1tJeRYHdjNxslsJcKmSRyhdbTvciikTRUf2E0OeJ2SFxG2i0pBtb6tD5gF/oS/Or4jj0rRk=
