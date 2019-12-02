@@ -19,7 +19,6 @@ script:
 - rm local_settings.py
 deploy:
   provider: heroku
-  app: heroku-meet-travis
+  app: https://prueba-19.herokuapp.com/
   strategy: git
-  api_key:
-    secure: VO8GMAV13VGNAc+t9g/Ult2gzXNrVVB6H+NHOMpCV0lV++r5NpkXgs5qFYwK/r4I8gcVmSHkeZU1UuoaDJaWyj7pGudGqYwAnul+PRIlQPhXPVgM2Mx2S0Twvgav+dgivP3CyDopWsM7mEXweTpVPrlnfGtNiQy5HMdRcX+HMAM1o1/MOJ9+iEs+tWb+Y5hS3Cbc3e16I6puO+KBQQaiVgBGGAoIO73Z0vrZmGHV1oIT3cst+ILIpI2WBp+kHWWS3c5btAop1P2obMgVQsWXDTr8u2ugnriFyV+YCse6KomRXIvrRp7YXE1JIzDbgeFpaRULlplxQW3lGVeHdpEQjLxN+PRg/odPUB+Z9giLE0bz3RdnNI54JqYeO2wyvk80RGaOgZjdOZc2Pr4fwrwdqgnjWYOfWwJfPr4n6DXpwSKew+8jzfHcygA3+RKZHDt1WNReXOEPbZFQnz9764qqrBMZV9IX4z4/NfEsCq6ii36YLG7GeIfL78VGtARPsXcNLd0ZMKirT1sXNksgxWxsffDHnOr2RVgBSwwWLOup+yADGempYPIG/wPOGvT/5l3hX3rlAbclEj7XE0cmn1NmlRFDoTMWio5fy5gSSxF1qVD9VyFOy1dQufz4oTHkwTBsITSFqMotEMgqSQ3e1Wxj49JW3CN4TekUZbxToN4pKmc=
+  

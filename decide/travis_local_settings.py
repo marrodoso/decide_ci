@@ -25,13 +25,13 @@ APIS = {
     'voting': 'http://localhost:8000',
 }
 
-BASEURL = 'http://10.5.0.1:8000'
+BASEURL = 'https://prueba-19.herokuapp.com/ '
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
+        'NAME': 'decide',
+        'USER': 'decide',
         'HOST': 'localhost',
         'PORT': '5432',
     }

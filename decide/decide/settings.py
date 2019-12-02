@@ -29,6 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -82,7 +84,6 @@ APIS = {
     'mixnet': BASEURL,
     'postproc': BASEURL,
     'store': BASEURL,
-    'gateway': BASEURL,
     'visualizer': BASEURL,
     'voting': BASEURL,
 }
@@ -193,7 +194,6 @@ if os.path.exists("config.jsonnet"):
     config = json.loads(evaluate_file("config.jsonnet"))
     for k, v in config.items():
         vars()[k] = v
-
 
 INSTALLED_APPS = INSTALLED_APPS + MODULES
 django_heroku.settings(locals())
